@@ -53,7 +53,7 @@
   <section class="jumbotron text-center">
     <img src="assets/img/irwan.jpg" alt="Irwanto Siregar" width="200" class="rounded-circle img-thumbnail">
     <h1 class="display-4 mt-2">Irwanto Siregar</h1>
-    <p class="lead">Front-End Developer | Web Developer</p>
+    <p class="lead">Front-End Developer | Back-End Developer</p>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#fdfdfd" fill-opacity="1"
         d="M0,192L48,202.7C96,213,192,235,288,208C384,181,480,107,576,85.3C672,64,768,96,864,133.3C960,171,1056,213,1152,202.7C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
@@ -177,20 +177,28 @@
       </div>
       <div class="row justify-content-center">
         <div class="col-md-6">
-          <form>
+          <div class="alert alert-success alert-dismissible fade show d-none" role="alert">
+            <strong>Thank you very much!</strong> Your message has been received.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+          <form name="submit-to-google-sheet">
             <div class="mb-3">
               <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="name" aria-describedby="name" autocomplete="off">
+              <input type="text" class="form-control" name="name" id="name" aria-describedby="name">
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" aria-describedby="email" autocomplete="off">
+              <input type="email" class="form-control" name="email" id="email" aria-describedby="email">
             </div>
             <div class="mb-3">
               <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" rows="3"></textarea>
+              <textarea class="form-control" name="message" id="message" rows="3"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary text-end">Send</button>
+            <button type="submit" class="btn btn-primary btn-send">Send</button>
+            <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+              <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+              Loading...
+            </button>
           </form>
         </div>
       </div>
@@ -215,7 +223,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
     crossorigin="anonymous"></script>
-
+  <script src="js/script.js"></script>
 </body>
 
 </html>
