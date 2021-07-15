@@ -1,0 +1,47 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Nav */
+ul li a {
+  color: #FEFEFE;
+  font-weight: 500;
+  margin: 0 14px;
+}
+
+/* Jumbotron */
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+.jumbotron h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.jumbotron p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* Section */
+section {
+  color: rgb(26, 26, 26);
+  padding-top: 5rem;
+  overflow-x: hidden;
+}
+
+section .container h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#about .row p {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+#projects {
+  background-color: #e2edff;
+}

@@ -1,0 +1,6 @@
+SITUS APP SUPPORTS :
+1. https://getwaves.io/
+    ==> Situs App untuk generate html SVG, berguna untuk membuat efek gelombang untuk di terapkan pada tampilan halaman web.
+
+2. https://squoosh.app/
+  ==> Situp App untuk kompresi dan resize gambar ke berbagai jenis/type gambar.
