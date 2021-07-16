@@ -1,0 +1,161 @@
+body {
+  background-color: #eeeeee;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+nav .navbar-brand {
+  font-weight: 500;
+}
+nav .navbar-brand, ul li a {
+  margin: 0 14px;
+}
+
+ul li a {
+  color: #FEFEFE;
+  font-weight: 500;
+}
+
+/* Jumbotron */
+.jumbotron {
+  color: #FBFBFB;
+  padding-top: 6rem;
+  background-color: #393e46;
+}
+
+.jumbotron h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.jumbotron p {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.jumbotron p, .projects .card p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+
+/* Section */
+section {
+  color: rgb(26, 26, 26);
+  padding-top: 5rem;
+  overflow-x: hidden;
+}
+
+section .container h2 {
+  color: #222831;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+hr {
+  width: 250px;
+  margin: 15px auto;
+  border-top: 2px solid rgba(206, 213, 219, 0.63);
+  box-shadow: 1px 2px 2px rgba(27, 46, 131, 0.578);
+}
+
+
+/* About */
+#about .row p {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.about__left, .about__right {
+	/* opacity: 0; */
+	/* transform: translate(-50px, 0) rotate(15deg); */
+	transition: 1s;
+}
+
+.about__right {
+  /* transform: translate(50px, 0) rotate(-15deg); */
+}
+
+.about__left.show__text, .about__right.show__text{
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
+
+/* Projects */
+.projects {
+  background-color: #393e46;
+}
+
+#projects h2 {
+  color: #f2f2f2;
+}
+
+.projects .card {
+  -webkit-box-shadow: 3px 4px 12px 5px #191d24;
+  -moz-box-shadow: 3px 4px 12px 5px #191d24;
+  box-shadow: 3px 4px 12px 5px #191d24;
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+
+.projects .card:hover {
+  -webkit-box-shadow: 3px 4px 12px 7px rgba(80, 83, 87, 0.65);
+  -moz-box-shadow: 3px 4px 12px 7px rgba(80, 83, 87, 0.65);
+  box-shadow: 3px 4px 12px 7px rgba(80, 83, 87, 0.65);
+}
+
+.projects .card.showcase {
+  opacity: 1;
+	transform: translate(0,0);
+}
+
+
+/* Footer */
+footer {
+  background-color: #393e46;
+}
+
+footer p a {
+  text-decoration: none;
+}
+
+footer p a:hover {
+  color: rgb(165, 0, 0)!important;
+  text-decoration: underline;
+}
+
+
+/* View Mobile */
+@media (max-width: 575.98px) {
+   /* Section */
+   section .container {
+     padding: 0 16px;
+   }
+
+   /* Jumbotron */
+   .jumbotron h1 {
+    font-size: 21px;
+   }
+
+   .jumbotron p {
+    font-size: 15px;
+   }
+
+  /* About */
+  #about .row p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  #contact .container {
+    padding-bottom: 50px;
+  }
+
+  /* Footer */
+  footer p, footer a {
+    font-size: 14px;
+  }
+
+ }
