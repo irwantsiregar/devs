@@ -1,18 +1,3 @@
-SITUS APP SUPPORTS :
-1. https://getwaves.io/
-    ==> Situs App untuk generate html SVG, berguna untuk membuat efek gelombang untuk di terapkan pada tampilan halaman web.
-
-2. https://squoosh.app/
-  ==> Situp App untuk kompresi dan resize gambar ke berbagai jenis/type gambar.
-
-3. https://github.com/jamiewilson/form-to-google-sheets
-  ==> Library untuk membuat interaktif halaman form menjadi dinamis.
-
-4.https://michalsnik.github.io/aos/
-  ==> AOS (Animate on Scroll): Library untuk membuat interaktif halaman web memiliki efek animasi.
-
-5. https://greensock.com/gsap/
-  ==> GSAP (GreenSock Animation Platform): Platform untuk membuat efek animasi pada sebuah property manipulator.
-
-6. https://gijsroge.github.io/tilt.js/ Atau https://micku7zu.github.io/vanilla-tilt.js/
-  ==> Tilt JS(JQuery) / Vanilla Tilt Js: Membuat efek Animasi 3D pada website menggunakan Tilt JS.
+TailwindCSS: https://tailwindcss.com/docs/installation
+Canvas SVG : https://www.blobmaker.app/
+Simple Icons: https://simpleicons.org/

@@ -1,8 +1,8 @@
-galleryImage.forEach((img, i) => {
-  img.dataset.aos = 'fade-down';
-  img.dataset.aosDelay = i * 100;
-  img.dataset.aosDuration = 1000;
-});
+// galleryImage.forEach((img, i) => {
+//   img.dataset.aos = 'fade-down';
+//   img.dataset.aosDelay = i * 100;
+//   img.dataset.aosDuration = 1000;
+// });
 
 // Global settings:
 AOS.init({
