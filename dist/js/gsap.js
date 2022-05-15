@@ -1,6 +1,6 @@
 gsap.registerPlugin(TextPlugin);
 gsap.to('#myskill-1', {
-  duration: 1.8,
+  duration: 2,
   delay: 1.3,
   text: "Front-End | Back-End Developer",
 });
