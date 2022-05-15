@@ -156,6 +156,39 @@
         </div>
       </div>
     </div>
+    <section id="my-keyboards">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My Keyboards</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="keyboard-box">
+              <h4 class="keyboard-name">Keychron K2</h4>
+              <img src="assets/img/tools/6.png" alt="K3" class="keyboard-img">
+              <a href="#" class="btn btn-light keyboard-detail-button">Show details</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="keyboard-box">
+              <h4 class="keyboard-name">Logitech 21</h4>
+              <img src="assets/img/tools/3.png" alt="Logitech" class="keyboard-img">
+              <a href="#" class="btn btn-light keyboard-detail-button">Show details</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="keyboard-box">
+              <h4 class="keyboard-name">Sams RMX</h4>
+              <img src="assets/img/tools/1.png" alt="Logitech" class="keyboard-img">
+              <a href="#" class="btn btn-light keyboard-detail-button">Show details</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#fefefe" fill-opacity="1"
         d="M0,160L60,176C120,192,240,224,360,208C480,192,600,128,720,138.7C840,149,960,235,1080,261.3C1200,288,1320,256,1380,240L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
@@ -288,6 +321,17 @@
   <script src="js/gsap.js"></script>
   <script src="js/aos-init.js"></script>
   <script src="js/form-dinamic.js"></script>
+
+  <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelectorAll(".keyboard-box"), {
+      max: 25,
+      speed: 600,
+      scale: 1.05,
+      glare: true,
+    });
+
+  </script>
 </body>
 
 </html>

@@ -13,3 +13,6 @@ SITUS APP SUPPORTS :
 
 5. https://greensock.com/gsap/
   ==> GSAP (GreenSock Animation Platform): Platform untuk membuat efek animasi pada sebuah property manipulator.
+
+6. https://gijsroge.github.io/tilt.js/ Atau https://micku7zu.github.io/vanilla-tilt.js/
+  ==> Tilt JS(JQuery) / Vanilla Tilt Js: Membuat efek Animasi 3D pada website menggunakan Tilt JS.
